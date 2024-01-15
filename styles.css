@@ -1,0 +1,43 @@
+/* styles.css */
+h1 {
+    color :bright red;
+
+}
+body {
+    color: black;
+    background-color: rgb(245, 243, 244);
+    font-family: arial;
+    font-size: 14px;
+    line-height: 1.78em;
+    color:#646464; 
+    font-weight: 400;
+    background-color:#f7f7f7; 
+    -webkit-font-smoothing:antialised;
+    overflow-x: hidden !important;
+}
+.header {
+    padding: 5px;
+    text-align: center;
+    background-color:white; 
+    color:rgb(193, 23, 23);
+    font-size: 30px;
+  }
+  .center {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .x {
+    text-align: center;
+  }
+  ul {
+    width: auto;
+}
+li {
+    display: inline-block;
+ }
+ a {
+    margin-right: 50px;
+ }
