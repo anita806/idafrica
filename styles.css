@@ -1,77 +1,60 @@
 /* styles.css */
 h1 {
-    color :bright red;
-    text-align: center;
+  color: bright red;
+  text-align: center;
+  margin-bottom: 5px;
 
 }
-h2{
+
+h2 {
   text-align: center;
 }
-h3{
+
+h3 {
   text-align: center;
 }
+
 body {
-    color: black;
-    background-color: rgb(245, 243, 244);
-    font-family: arial;
-    font-size: 20px;
-    line-height: 1.78em;
-    color:white; 
-    font-weight: 600;
-    background-color:#f7f7f7; 
-    -webkit-font-smoothing:antialised;
-    overflow-x: hidden !important;
-    background-image:url(background.JPG);
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-    
-}
-.header {
-    padding: 0px;
-    text-align: center;
-    background-color:white; 
-    color:rgb(193, 23, 23);
-    font-size: 30px;
-    overflow: hidden;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 20vh;
-  }
-  .header a{
-    float: left;
-    color: aliceblue;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-  }
-.header-right{
-  float: right;
+  color: black;
+  background-color: rgb(245, 243, 244);
+  font-family: arial;
+  font-size: 20px;
+  line-height: 1.78em;
+  color: white;
+  font-weight: 600;
+  background-color: #f7f7f7;
+  -webkit-font-smoothing: antialised;
+  overflow-x: hidden !important;
+  background-image: url(bg2.jpeg);
+   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
-  .center {
-    width: 200px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
 
-   ul {
-    width: auto;
+.center {
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+
+ul {
+  width: auto;
+}
+
 li {
-    display: inline-block;
- }
- a {
-    margin-right: 50px;
- }
- p{
+  display: inline-block;
+}
+
+a {
+  margin-right: 50px;
+}
+
+p {
   margin-bottom: 20px;
- }
+}
+
 /* unvisited link */
 a:link {
   color: red;
@@ -90,14 +73,28 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
-  
-  @media screen and (max width:390px) {
-    .header a {
-      float: none;
-      display:block;
-      text-align: left;
-    }
-    .header-right{
-      float:none;
-    }
-   
+
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: beige;
+  color: black;
+  opacity: 0.7;
+  font-size: 10px;
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+  color:white;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+table,th,td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
