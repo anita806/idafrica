@@ -1,27 +1,58 @@
 /* styles.css */
 h1 {
     color :bright red;
+    text-align: center;
 
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
 }
 body {
     color: black;
     background-color: rgb(245, 243, 244);
     font-family: arial;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.78em;
-    color:#646464; 
-    font-weight: 400;
+    color:white; 
+    font-weight: 600;
     background-color:#f7f7f7; 
     -webkit-font-smoothing:antialised;
     overflow-x: hidden !important;
+    background-image:url(background.JPG);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
 }
 .header {
-    padding: 5px;
+    padding: 0px;
     text-align: center;
     background-color:white; 
     color:rgb(193, 23, 23);
     font-size: 30px;
+    overflow: hidden;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 20vh;
   }
+  .header a{
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+.header-right{
+  float: right;
+  display: flex;
+  align-items: center;
+}
   .center {
     width: 200px;
     position: absolute;
@@ -29,10 +60,7 @@ body {
     left: 0;
   }
 
-  .x {
-    text-align: center;
-  }
-  ul {
+   ul {
     width: auto;
 }
 li {
@@ -41,3 +69,35 @@ li {
  a {
     margin-right: 50px;
  }
+ p{
+  margin-bottom: 20px;
+ }
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  
+  @media screen and (max width:390px) {
+    .header a {
+      float: none;
+      display:block;
+      text-align: left;
+    }
+    .header-right{
+      float:none;
+    }
+   
